@@ -1,0 +1,38 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+ENV/
+*.egg-info/
+
+# Ansible-related
+*.retry
+*.log
+*.tar.gz
+*.vault
+*.vault_pass.txt
+
+# SSH keys and sensitive data
+*.pem
+*.key
+*.crt
+*.pub
+*.secret
+*.enc
+secrets.yml
+
+
+# Miscellaneous
+.DS_Store
+*.swp
+*.bak
+*.tmp
+
+# Molecule testing
+.molecule/
